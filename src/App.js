@@ -1,13 +1,17 @@
-import React from 'react';
-import MoodClicker from './MoodClicker';
-import './App.css';
+import React from 'react'
+import Counter from './Counter'
+import MoodClicker from './MoodClicker'
+import ColorPicker from './ColorPicker'
+import './App.css'
 
 function App() {
-    return ( 
-      <div className = 'App' >
+  return (
+    <div className="App">
       <MoodClicker />
-        </div>
-    );
+      <Counter />
+      <ColorPicker />
+    </div>
+  )
 }
 
 export default App;
